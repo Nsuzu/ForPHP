@@ -3,8 +3,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text.Json;
 using System.Diagnostics;
-ForPHP.SettingInfo? setting = new ForPHP.SettingInfo();
 
+ForPHP.SettingInfo? setting = new ForPHP.SettingInfo();
 
 try {
     using (FileStream fileStream = File.OpenRead("setting.json")) {
