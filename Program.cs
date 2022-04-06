@@ -15,7 +15,6 @@ try {
     return;
 }
 
-
 if (setting == null) {
     Console.WriteLine("\"setting.json\" is not valid.");
     return;
